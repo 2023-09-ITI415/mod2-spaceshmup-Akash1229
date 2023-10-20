@@ -12,6 +12,7 @@ public enum WeaponType
     none, // The default / no weapons
     blaster, // A simple blaster
     spread, // Two shots simultaneously
+    drone,
     phaser, // [NI] Shots that move in waves
     missile, // [NI] Homing missiles
     laser, // [NI] Damage over time
