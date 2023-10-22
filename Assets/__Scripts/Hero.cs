@@ -66,6 +66,9 @@ public class Hero : MonoBehaviour {
         if (Input.GetAxis("Jump") == 1 && fireDelegate != null)
         {
             fireDelegate();
+        }if (Input.GetAxis("Jump") == 1 && fireDelegate != null)
+        {
+            fireDelegate();
         }
     }
 
